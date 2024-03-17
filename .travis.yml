@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t vkrish9/Docker-react -f Dockerfile.dev .
+  - docker build -t CHVK97/Docker-react -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true CHVK97/Docker-react npm run test
